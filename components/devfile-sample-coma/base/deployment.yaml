@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-coma
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0069-tenant/tkrw-pr712-0075-0069-app/devfile-sample-coma@sha256:ddfc82b0b377e6936726ef3ce8c5646600a9e0b6d0791a7c394b55f862a75bdb
         name: my-nodejs
         ports:
         - containerPort: 3001
